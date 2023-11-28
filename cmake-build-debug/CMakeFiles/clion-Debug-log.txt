@@ -1,0 +1,17 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/allan/Documents/ssela -B /Users/allan/Documents/ssela/cmake-build-debug
+==> Added Cmake Format
+==> Added Clang Format
+==> IPO is supported
+error: pathspec 'external/log' did not match any file(s) known to git
+==> Warnings Disabled for: log
+==> Warnings Active for: lib
+==> Warnings as Errors for: OFF
+==> Added Clang Tidy for Target: lib
+==> Warnings Active for: main
+==> Warnings as Errors for: OFF
+==> Added Clang Tidy for Target: main
+==> Warnings Active for: unit_tests
+==> Warnings as Errors for: OFF
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/allan/Documents/ssela/cmake-build-debug

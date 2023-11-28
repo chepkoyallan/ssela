@@ -1,0 +1,4 @@
+/Users/allan/Documents/ssela/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/Users/allan/Documents/ssela/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/Users/allan/Documents/ssela/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/Users/allan/Documents/ssela/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

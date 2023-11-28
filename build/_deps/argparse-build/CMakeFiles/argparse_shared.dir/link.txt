@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -O3 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -dynamiclib -Wl,-headerpad_max_install_names -o libargparse.dylib -install_name @rpath/libargparse.dylib CMakeFiles/argparse_shared.dir/argparse.c.o 

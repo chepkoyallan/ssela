@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/Users/allan/Documents/ssela/build/_deps/unity-build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/allan/Documents/ssela/build/_deps/unity-src/src -I/Users/allan/Documents/ssela/build/_deps/unity-build -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -std=c11 -o CMakeFiles/unity.dir/src/unity.c.o -c /Users/allan/Documents/ssela/build/_deps/unity-src/src/unity.c",
+  "file": "/Users/allan/Documents/ssela/build/_deps/unity-src/src/unity.c"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/build/_deps/argparse-build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dargparse_shared_EXPORTS -I/Users/allan/Documents/ssela/build/_deps/argparse-src/. -O3 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -std=c99 -o CMakeFiles/argparse_shared.dir/argparse.c.o -c /Users/allan/Documents/ssela/build/_deps/argparse-src/argparse.c",
+  "file": "/Users/allan/Documents/ssela/build/_deps/argparse-src/argparse.c"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/build/_deps/argparse-build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/allan/Documents/ssela/build/_deps/argparse-src/. -O3 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -std=c99 -o CMakeFiles/argparse.dir/argparse.c.o -c /Users/allan/Documents/ssela/build/_deps/argparse-src/argparse.c",
+  "file": "/Users/allan/Documents/ssela/build/_deps/argparse-src/argparse.c"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/build/external",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/allan/Documents/ssela/external/log/src -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -std=c99 -o CMakeFiles/log.dir/log/src/log.c.o -c /Users/allan/Documents/ssela/external/log/src/log.c",
+  "file": "/Users/allan/Documents/ssela/external/log/src/log.c"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/build/src/my_lib",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/allan/Documents/ssela/src/my_lib/. -I/Users/allan/Documents/ssela/build/configured_files/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic -Wshadow -Wunused -Wformat=2 -Wcast-align -Wconversion -Wnull-dereference -std=c99 -o CMakeFiles/lib.dir/my_lib.c.o -c /Users/allan/Documents/ssela/src/my_lib/my_lib.c",
+  "file": "/Users/allan/Documents/ssela/src/my_lib/my_lib.c"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/build/app",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/allan/Documents/ssela/src/my_lib/. -I/Users/allan/Documents/ssela/build/configured_files/include -I/Users/allan/Documents/ssela/external/log/src -I/Users/allan/Documents/ssela/build/_deps/argparse-src/. -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic -Wshadow -Wunused -Wformat=2 -Wcast-align -Wconversion -Wnull-dereference -std=c99 -o CMakeFiles/main.dir/main.c.o -c /Users/allan/Documents/ssela/app/main.c",
+  "file": "/Users/allan/Documents/ssela/app/main.c"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/build/tests",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/allan/Documents/ssela/src/my_lib/. -I/Users/allan/Documents/ssela/build/configured_files/include -I/Users/allan/Documents/ssela/build/_deps/unity-src/src -I/Users/allan/Documents/ssela/build/_deps/unity-build -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wall -Wextra -Wpedantic -Wshadow -Wunused -Wformat=2 -Wcast-align -Wconversion -Wnull-dereference -std=c99 -o CMakeFiles/unit_tests.dir/main.c.o -c /Users/allan/Documents/ssela/tests/main.c",
+  "file": "/Users/allan/Documents/ssela/tests/main.c"
+}
+]

@@ -1,0 +1,191 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/lib/liblib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_compile_options",
+			"target_set_warnings",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/lib/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/Warnings.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wformat=2"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wnull-dereference"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/allan/Documents/ssela/src/lib/."
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/allan/Documents/ssela/cmake-build-debug/configured_files/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "lib::@dc1a1c76835bc3d8b019",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "lib",
+	"nameOnDisk" : "liblib.a",
+	"paths" : 
+	{
+		"build" : "src/lib",
+		"source" : "src/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lib/my_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/lib/my_lib.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/allan/Documents/ssela/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -I/Users/allan/Documents/ssela/cmake-build-debug/_deps/unity-src/src -I/Users/allan/Documents/ssela/cmake-build-debug/_deps/unity-build -g -std=c11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -o _deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o -c /Users/allan/Documents/ssela/cmake-build-debug/_deps/unity-src/src/unity.c",
+  "file": "/Users/allan/Documents/ssela/cmake-build-debug/_deps/unity-src/src/unity.c",
+  "output": "_deps/unity-build/CMakeFiles/unity.dir/src/unity.c.o"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -Dargparse_shared_EXPORTS -I/Users/allan/Documents/ssela/cmake-build-debug/_deps/argparse-src/. -O3 -g -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC -fcolor-diagnostics -o _deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o -c /Users/allan/Documents/ssela/cmake-build-debug/_deps/argparse-src/argparse.c",
+  "file": "/Users/allan/Documents/ssela/cmake-build-debug/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse_shared.dir/argparse.c.o"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -I/Users/allan/Documents/ssela/cmake-build-debug/_deps/argparse-src/. -O3 -g -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -o _deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o -c /Users/allan/Documents/ssela/cmake-build-debug/_deps/argparse-src/argparse.c",
+  "file": "/Users/allan/Documents/ssela/cmake-build-debug/_deps/argparse-src/argparse.c",
+  "output": "_deps/argparse-build/CMakeFiles/argparse.dir/argparse.c.o"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -I/Users/allan/Documents/ssela/external/log/src -g -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -o external/CMakeFiles/log.dir/log/src/log.c.o -c /Users/allan/Documents/ssela/external/log/src/log.c",
+  "file": "/Users/allan/Documents/ssela/external/log/src/log.c",
+  "output": "external/CMakeFiles/log.dir/log/src/log.c.o"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -I/Users/allan/Documents/ssela/src/lib/. -I/Users/allan/Documents/ssela/cmake-build-debug/configured_files/include -g -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wpedantic -Wshadow -Wunused -Wformat=2 -Wcast-align -Wconversion -Wnull-dereference -o src/lib/CMakeFiles/lib.dir/my_lib.c.o -c /Users/allan/Documents/ssela/src/lib/my_lib.c",
+  "file": "/Users/allan/Documents/ssela/src/lib/my_lib.c",
+  "output": "src/lib/CMakeFiles/lib.dir/my_lib.c.o"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -I/Users/allan/Documents/ssela/src/lib/. -I/Users/allan/Documents/ssela/cmake-build-debug/configured_files/include -I/Users/allan/Documents/ssela/external/log/src -I/Users/allan/Documents/ssela/cmake-build-debug/_deps/argparse-src/. -g -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wpedantic -Wshadow -Wunused -Wformat=2 -Wcast-align -Wconversion -Wnull-dereference -o app/CMakeFiles/main.dir/main.c.o -c /Users/allan/Documents/ssela/app/main.c",
+  "file": "/Users/allan/Documents/ssela/app/main.c",
+  "output": "app/CMakeFiles/main.dir/main.c.o"
+},
+{
+  "directory": "/Users/allan/Documents/ssela/cmake-build-debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -I/Users/allan/Documents/ssela/src/lib/. -I/Users/allan/Documents/ssela/cmake-build-debug/configured_files/include -I/Users/allan/Documents/ssela/cmake-build-debug/_deps/unity-src/src -I/Users/allan/Documents/ssela/cmake-build-debug/_deps/unity-build -g -std=c99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -Wall -Wextra -Wpedantic -Wshadow -Wunused -Wformat=2 -Wcast-align -Wconversion -Wnull-dereference -o tests/CMakeFiles/unit_tests.dir/main.c.o -c /Users/allan/Documents/ssela/tests/main.c",
+  "file": "/Users/allan/Documents/ssela/tests/main.c",
+  "output": "tests/CMakeFiles/unit_tests.dir/main.c.o"
+}
+]

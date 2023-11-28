@@ -1,0 +1,314 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-50255a9351a768abce7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/unity-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.unity-build-Debug-649aac433ffb66f89307.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/unity-src",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "_deps/argparse-build",
+					"jsonFile" : "directory-_deps.argparse-build-Debug-93cfd980bf8d2492b531.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/argparse-src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "configured",
+					"jsonFile" : "directory-configured-Debug-3578f59e8a9efbe19381.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "configured"
+				},
+				{
+					"build" : "external",
+					"jsonFile" : "directory-external-Debug-8482bb5b6989bf536f1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/lib",
+					"jsonFile" : "directory-src.lib-Debug-13ebd6f46d3a8d26f167.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "src/lib",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "app",
+					"jsonFile" : "directory-app-Debug-94c5f210ca04b1028ae5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "ssela",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "unity",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "argparse",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "argparse::@d758cd22b6a9b8f5af42",
+					"jsonFile" : "target-argparse-Debug-c81e1ad47fa0e0c69112.json",
+					"name" : "argparse",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "argparse_shared::@d758cd22b6a9b8f5af42",
+					"jsonFile" : "target-argparse_shared-Debug-190b8f4f8b420e7f4e6b.json",
+					"name" : "argparse_shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "docs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-docs-Debug-903b49fb9914d5670362.json",
+					"name" : "docs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "lib::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-lib-Debug-877ec50cc05ad8414541.json",
+					"name" : "lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "lib_clangtidy::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-lib_clangtidy-Debug-ba0dc6f489fd40f20d15.json",
+					"name" : "lib_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "log::@89556154f30252d09d22",
+					"jsonFile" : "target-log-Debug-b648bfc1a01c6f250b37.json",
+					"name" : "log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "main::@5f5a17c01335469806cb",
+					"jsonFile" : "target-main-Debug-49a7e852a4320c51bf36.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "main_clangtidy::@5f5a17c01335469806cb",
+					"jsonFile" : "target-main_clangtidy-Debug-51cfb84e7348cb399087.json",
+					"name" : "main_clangtidy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_clang_format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_clang_format-Debug-1510eeba0111130b0b93.json",
+					"name" : "run_clang_format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_cmake_format::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_cmake_format-Debug-ea48980f44a12182d820.json",
+					"name" : "run_cmake_format",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "unit_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-unit_tests-Debug-97b89492417437fd391f.json",
+					"name" : "unit_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "unity::@e7b0562af20a4d8c3b3c",
+					"jsonFile" : "target-unity-Debug-d844513b7799631e5ab3.json",
+					"name" : "unity",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/allan/Documents/ssela/cmake-build-debug",
+		"source" : "/Users/allan/Documents/ssela"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
